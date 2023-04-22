@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div>
       <Header />
       <h1 className="text-5xl">Counter</h1>
+      <Footer />
     </div>
   );
 }
