@@ -1,13 +1,10 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+import Layouts from "./layouts/Layouts";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <Layouts>
       <h1 className="text-5xl">Counter</h1>
-      <Footer />
-    </div>
+    </Layouts>
   );
 }
 
