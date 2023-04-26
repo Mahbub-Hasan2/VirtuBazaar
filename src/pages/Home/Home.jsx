@@ -1,9 +1,9 @@
 // import React from 'react';
+import Navbar from "../../layouts/Navbar";
 
 const Home = () => {
     return (
-        <div>
-            Home
+        <div className="max-w-[1400px] mx-auto">
         </div>
     );
 };
