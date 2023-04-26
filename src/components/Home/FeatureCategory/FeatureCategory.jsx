@@ -112,14 +112,13 @@ export default function FeatureCategory() {
             spaceBetween: 16,
           },
         }}
-        scrollbar={{ draggable: true }}
         modules={[Navigation, Autoplay]}
         loop={true}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
-        className="mb-8"
+        className="my-8 "
       >
         {category.main.map((item, index) => (
           <SwiperSlide key={index}>
